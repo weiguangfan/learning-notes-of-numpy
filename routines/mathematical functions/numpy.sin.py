@@ -12,20 +12,20 @@ numpy.sin(
             ) = <ufunc 'sin'>
 三角正弦，以元素为单位。
 Parameters:
-x:array_like
-    角度，以弧度为单位（2pi弧度等于360度）。
-out:ndarray, None, or tuple of ndarray and None, optional
-    一个储存结果的位置。
-    如果提供，它必须有一个输入广播的形状。
-    如果没有提供或没有，将返回一个新分配的数组。
-    一个元组（只可能作为关键字参数）的长度必须等于输出的数量。
-where:array_like, optional
-    这个条件在输入中被广播。
-    在条件为True的地方，输出数组将被设置为ufunc的结果。
-    在其他地方，out数组将保留其原始值。
-    注意，如果通过默认的out=None创建了一个未初始化的out数组，其中条件为False的位置将保持未初始化。
-**kwargs:
-    关于其他只用关键字的参数，请参见ufunc文档。
+    x:array_like
+        角度，以弧度为单位（2pi弧度等于360度）。
+    out:ndarray, None, or tuple of ndarray and None, optional
+        一个储存结果的位置。
+        如果提供，它必须有一个输入广播的形状。
+        如果没有提供或没有，将返回一个新分配的数组。
+        一个元组（只可能作为关键字参数）的长度必须等于输出的数量。
+    where:array_like, optional
+        这个条件在输入中被广播。
+        在条件为True的地方，输出数组将被设置为ufunc的结果。
+        在其他地方，out数组将保留其原始值。
+        注意，如果通过默认的out=None创建了一个未初始化的out数组，其中条件为False的位置将保持未初始化。
+    **kwargs:
+        关于其他只用关键字的参数，请参见ufunc文档。
 
 Returns:
 y:array_like
