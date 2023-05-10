@@ -5,6 +5,7 @@ and you want to scale each color in the image by a different value,
 you can multiply the image by a one-dimensional array with 3 values. 
 """
 image = np.random.Generator.random(size=(256,256,3))
-scale = np.random.Generator.random(size=(3,))
-print(image * scale)
+print(image.shape)
+# scale = np.random.Generator.random(size=(3,))
+# print(image * scale)
 
