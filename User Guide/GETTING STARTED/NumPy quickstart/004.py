@@ -1,0 +1,10 @@
+import numpy as np
+a = np.zeros((3, 4))
+print(a)
+print(a.dtype)
+b = np.ones((2, 3, 4), dtype=np.int16)
+print(b)
+print(b.dtype)
+c = np.empty((2, 3))
+print(c)
+print(c.dtype)

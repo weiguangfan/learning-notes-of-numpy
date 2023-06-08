@@ -1,0 +1,13 @@
+import numpy as np
+# a = np.random.randint(1,9,(2,3))
+a = np.arange(15).reshape(3, 5)
+print(a)
+print(type(a))
+print(a.ndim)
+print(a.shape)
+print(a.size)
+print(a.dtype)
+print(a.dtype.name)
+print(a.dtype.itemsize)
+print(a.itemsize)
+print(a.data)
