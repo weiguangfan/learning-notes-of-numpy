@@ -1,0 +1,11 @@
+import numpy as np
+a = np.arange(12).reshape(3, 4)
+print(a)
+b1 = np.array([False, True, True])
+print(b1)
+b2 = np.array([True, False, True, False])
+print(b2)
+print(a[b1, :])
+print(a[b1])
+print(a[:, b2])
+print(a[b1, b2])

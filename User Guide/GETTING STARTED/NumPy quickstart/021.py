@@ -23,3 +23,5 @@ print(np.hstack((a[:, newaxis], b[:, newaxis])))
 
 print(np.row_stack is np.vstack)
 print(np.column_stack is np.hstack)
+
+print(np.r_[1:4, 0, 4])
