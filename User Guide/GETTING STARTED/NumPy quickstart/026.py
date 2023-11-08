@@ -4,4 +4,5 @@ print(a)
 b = a[:100].copy()
 print(b)
 del a
+# print(a)
 print(b)

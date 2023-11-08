@@ -11,3 +11,4 @@ image = np.array([[0, 1, 2, 0],  # each value corresponds to a color in the pale
 print(image)
 print(image.shape)
 print(palette[image])
+print(palette[image].shape)

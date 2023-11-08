@@ -13,7 +13,7 @@ print(bx.shape)
 print(cx)
 print(cx.shape)
 print(ax + bx + cx)
-result = ax + bx * cx
-print(result)
-print(result[3, 2, 4])
-print(a[3] + b[2] * c[4])
+# result = ax + bx * cx
+# print(result)
+# print(result[3, 2, 4])
+# print(a[3] + b[2] * c[4])

@@ -1,8 +1,12 @@
-"""
-linalg.norm(x, ord=None, axis=None, keepdims=False)
-
-矩阵或向量规范。
-
-这个函数能够返回八个不同的矩阵规范中的一个，或者是无限多的向量规范中的一个（如下所述），这取决于ord参数的值。
-
-"""
+import numpy as np
+A = [8,1,6]
+print(type(A))
+print(A)
+print(np.power(A, 2))
+print(sum(np.power(A, 2)))
+modA = np.sqrt(sum(np.power(A,2)))
+print(modA)
+# L2范数
+normA = np.linalg.norm(A)
+print(type(normA))
+print(normA)

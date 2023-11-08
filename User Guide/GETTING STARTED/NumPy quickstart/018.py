@@ -7,8 +7,8 @@ def f(x, y):
 
 b = np.fromfunction(f, (5, 4), dtype=int)
 print(b)
-# for row in b:
-#     print(row)
+for row in b:
+    print(row)
     
 for element in b.flat:
     print(element)

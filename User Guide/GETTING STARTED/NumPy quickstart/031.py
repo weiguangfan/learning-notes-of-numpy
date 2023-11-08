@@ -9,5 +9,8 @@ import numpy as np
 # print(b)
 c = np.arange(5)
 print(c)
-c[[0, 0, 2]] += 1
+print(c[[0, 0, 2]])
+print(c[[0, 0, 2]] + 1)
+c[[0, 0, 2]] = c[[0, 0, 2]] + 1
+print(c[[0, 0, 2]])
 print(c)

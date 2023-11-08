@@ -1,15 +1,10 @@
-"""
-numpy.dot(a, b, out=None)
-两个数组的点积。具体来说:
-    如果a和b都是一维数组，它是向量的内积（没有复数共轭）。
+import numpy as np
+v1 = np.array([1,2,3])
+v2 = np.array([4,7,5])
+print(np.dot(v1, v2))
+v3 = np.mat([1,2,3])
+v4 = np.mat([4,7,5])
+print(np.multiply(v3, v4))
+print(np.sum(np.multiply(v3, v4)))
 
-    如果a和b都是二维数组，它就是矩阵乘法，但最好使用matmul或a @ b。
-
-    如果a或b是0-D（标量），则等同于乘法，使用numpy.multiply(a, b)或a * b是首选。
-
-    如果a是一个N-D数组，b是一个1-D数组，它是a和b的最后一个轴上的和积。
-
-    如果a是一个N-D数组，b是一个M-D数组（其中M>=2），它是a的最后一个轴和b的倒数第二个轴的和积。
-        dot(a, b)[i,j,k,m] = sum(a[i,j,:] * b[k,:,m])
-
-"""
+np.nonzero()
